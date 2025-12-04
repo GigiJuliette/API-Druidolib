@@ -19,7 +19,7 @@ export const praticiens = [
   nom: "Ysoria la Clairvoyante du Bois-Brume",
   age: "43 ans",
   specialite: "Voyance runique et interprétation des murmures astrals",
-  description: "Maîtresse des visions étranges, Ysoria contemple les volutes d'encens jusqu’à ce que les esprits acceptent enfin de lui répondre. Elle parle souvent en devinettes, parfois même sans raison, mais ses prophéties – qu'elles soient terrifiantes ou absurdes – finissent toujours par se réaliser d’une manière ou d’une autre.",
+  presentation: "Maîtresse des visions étranges, Ysoria contemple les volutes d'encens jusqu’à ce que les esprits acceptent enfin de lui répondre. Elle parle souvent en devinettes, parfois même sans raison, mais ses prophéties – qu'elles soient terrifiantes ou absurdes – finissent toujours par se réaliser d’une manière ou d’une autre.",
   tarif: "3 pièces d’argent, ou une plume de griffon impeccablement propre.",
   adresse: "Marchez vers le nord jusqu’à ce que les arbres semblent vous observer, tournez à gauche au rocher qui ressemble vaguement à un hérisson géant, puis avancez jusqu'à sentir une odeur de sauge brûlée. Sa hutte apparaît lorsque vous clignez des yeux trois fois.",
   imagePraticien: "https://i.pinimg.com/736x/a1/36/8e/a1368ec5af24b2240f9362e2bb18017b.jpg",
@@ -35,8 +35,8 @@ export const praticiens = [
   presentation: "Connue pour préparer des potions qui sentent soit très bon, soit très… surprenant. Jure que les écureuils lui transmettent des secrets médicinaux indispensables.",
   tarif: "15 feuilles de chêne ou 35€ la séance (réduction si vous apportez un chant d’oiseau enregistré)",
   adresse: "Cabane suspendue dans le Grand Hêtre Doré. Accessible par une échelle en lianes (attention aux glissades).",
-  imagePraticien: "",
-  imageLieu: ""
+  imagePraticien: "https://i.pinimg.com/736x/09/b1/ea/09b1eaf390727538a20079a5cb562fa1.jpg",
+  imageLieu: "https://i.pinimg.com/736x/cf/b4/43/cfb443b2e439b33676a01819dc6f3ad2.jpg"
 },
 {
   id: 18,
@@ -48,8 +48,8 @@ export const praticiens = [
   presentation: "Galdor affirme que les pierres lui parlent. Le problème, c’est qu’il répond vraiment. Ses consultations sont courtes, mais ses siestes sont longues.",
   tarif: "Une pierre 'qui a une bonne vibration' ou 30€",
   adresse: "Grotte de la Pierre Murmurante. Suivre l'écho… ou attendre que Galdor sorte faire une sieste dehors.",
-  imagePraticien: "",
-  imageLieu: ""
+  imagePraticien: "https://i.pinimg.com/736x/1f/0d/42/1f0d42dc1b1349a72568edea4b16bddc.jpg",
+  imageLieu: "https://i.pinimg.com/736x/f9/a5/c6/f9a5c6b276438f06dcf93773aa0faae5.jpg"
 },
 {
   id: 19,
@@ -61,8 +61,8 @@ export const praticiens = [
   presentation: "Althéon fait des remèdes… comestibles. Certains ont même bon goût. Il affirme pouvoir purifier l’âme avec une bonne soupe fumée.",
   tarif: "Un pot en terre cuite ou 45€ (supplément si explosion involontaire de potion)",
   adresse: "Atelier de Fumées Sacrées, au bord du ruisseau crépitant.",
-  imagePraticien: "",
-  imageLieu: ""
+  imagePraticien: "https://i.pinimg.com/736x/42/9f/a6/429fa62d91d2d9d427189edc2d81425a.jpg",
+  imageLieu: "https://i.pinimg.com/736x/03/31/0c/03310cbd0272729aa8502aa9227130b6.jpg"
 },
 {
   id: 20,
@@ -74,8 +74,8 @@ export const praticiens = [
   presentation: "Ysilde travaille surtout la nuit, affirmant que la lune lui envoie des consignes. Très douce, mais parfois en pleine conversation avec… personne.",
   tarif: "2 fioles de rosée du matin ou 38€",
   adresse: "Jardin de Lune, clairière argentée accessible uniquement à la tombée du jour.",
-  imagePraticien: "",
-  imageLieu: ""
+  imagePraticien: "https://i.pinimg.com/736x/74/67/f9/7467f9ee04adad09289923063e1ddaad.jpg",
+  imageLieu: "https://i.pinimg.com/736x/2b/af/50/2baf5043ec0c20ac3f6ad8f80fb2a5a9.jpg"
 },
 {
   id: 21,
@@ -215,7 +215,7 @@ export const praticiens = [
     age: "132 ans",
     specialite:
       "Herboristerie occulte et potions qui font parfois l’effet attendu",
-    description:
+    presentation:
       "Ancien moine ayant passé un siècle à parler aux plantes — et apparemment, elles lui répondent. Ses mixtures oscillent entre miracles et catastrophes parfumées. Sa barbe abrite sûrement quelques ingrédients oubliés.",
     tarif: "2 pièces d’or ou un sac de racines indéterminées.",
     adresse:
@@ -232,7 +232,7 @@ export const praticiens = [
     nom: "Dame Griwella Croc-de-Lune",
     age: "87 ans",
     specialite: "Remède aux malédictions mineures et aux ennuis majeurs",
-    description:
+    presentation:
       "Griwella prétend avoir survécu à sept malédictions différentes, mais son œil qui clignote tout seul et son ombre indépendante laissent penser qu’il en reste encore une ou deux. Malgré tout, elle est étonnamment efficace.",
     tarif:
       "1 gemme quelconque ou une chanson bien chantée (elle juge très sévèrement).",
@@ -251,7 +251,7 @@ export const praticiens = [
     age: "211 ans",
     specialite:
       "Guérison par prières prolongées et tapes vigoureuses sur l’épaule",
-    description:
+    presentation:
       "Personne ne sait comment Odon a dépassé deux siècles, mais il assure que c’est grâce à son ‘régime strict de foi et de soupe très salée’. Il parle lentement, mais ses soins frappent comme la foudre.",
     tarif: "7 deniers ou un osselet porte-bonheur.",
     adresse:
@@ -268,7 +268,7 @@ export const praticiens = [
     nom: "Sorceline la Tisseuse d’Échos",
     age: "104 ans",
     specialite: "Interprétation des rêves, cauchemars et visions accidentelles",
-    description:
+    presentation:
       "Sorceline voit des signes partout : dans les nuages, les flaques, les miettes de pain… Elle note tout dans un grimoire aussi épais qu’un sanglier. Son rire résonne comme si plusieurs personnes riaient en même temps.",
     tarif: "5 pièces d’argent ou un rêve raconté avec précision.",
     adresse:
@@ -285,7 +285,7 @@ export const praticiens = [
     nom: "Chaman Ulmar Vent-Grave",
     age: "79 ans",
     specialite: "Invocation des esprits de la poussière et du tonnerre",
-    description:
+    presentation:
       "Ulmar parle au vent depuis si longtemps qu’il entend désormais ses réponses. Ses rituels consistent à souffler très fort sur des cailloux brillants, ce qui, contre toute attente, fonctionne parfois.",
     tarif: "4 plumes de corbeau ou une poignée de sable chantant.",
     adresse:
@@ -302,7 +302,7 @@ export const praticiens = [
     nom: "Shamira Lune-Crise",
     age: "683 ans",
     specialite: "Transes lunaires, harmonisation des esprits capricieux",
-    description:
+    presentation:
       "Shamira communique avec les astres… du moins, c’est ce qu’elle raconte entre deux crises de rire mystique. Lorsqu’elle danse autour du feu, même les braises semblent nerveuses.",
     tarif:
       "2 perles d’eau-de-roche ou un soupir de minuit capturé dans une fiole.",
@@ -321,7 +321,7 @@ export const praticiens = [
     age: "88 ans",
     specialite:
       "Communication avec les esprits discrets (et souvent contrariés)",
-    description:
+    presentation:
       "Gorrel parle tellement bas qu’il semble murmurer aux cailloux. Selon lui, les esprits n’aiment pas les bavards. Il transporte un sac rempli de pierres ‘très susceptibles’.",
     tarif: "1 talisman fendu ou une histoire racontée à voix basse.",
     adresse:
@@ -338,7 +338,7 @@ export const praticiens = [
     nom: "Narka Vent-des-Rêves",
     age: "72 ans",
     specialite: "Chamanisme onirique et chasse aux cauchemars farceurs",
-    description:
+    presentation:
       "Narka capture les mauvais rêves dans des filets faits de fils de brume. Elle affirme que certains cauchemars sont ‘mignons’ et qu’elle les garde comme animaux de compagnie.",
     tarif: "3 feuilles de sommeil ou un rêve doux soigneusement décrit.",
     adresse:
@@ -355,7 +355,7 @@ export const praticiens = [
     nom: "Thorgunne Basse-d’Aube",
     age: "21 ans",
     specialite: "Rituels d’équilibre entre bêtes, hommes et mélodies",
-    description:
+    presentation:
       "Thorgunne est recouvert de peintures qui changent légèrement de forme quand il dort. Il prétend avoir négocié un traité diplomatique avec un ours spectral… lequel n’a jamais confirmé l’accord.",
     tarif: "2 dents de bête (propres) ou un juron ancestral oublié.",
     adresse:
@@ -373,7 +373,7 @@ export const praticiens = [
     age: "68 ans",
     specialite:
       "Lecture des flux vitaux et apaisement des esprits tourbillonnants",
-    description:
+    presentation:
       "Marela écoute les tourbillons d’air comme s’ils chuchotaient des secrets. Elle porte toujours un manteau qui flotte même sans vent, ce qu’elle attribue à un ‘esprit facétieux’ qu’elle refuse de nommer.",
     tarif:
       "5 feuilles de chêne spiralées ou un souffle chaud dans un coquillage.",
@@ -391,7 +391,7 @@ export const praticiens = [
     nom: "Sorcier Meldran aux Mille Chandelles",
     age: "71 ans",
     specialite: "Sortilèges de lumière instable et illusions capricieuses",
-    description:
+    presentation:
       "Meldran éclaire les ténèbres… parfois trop fort, parfois pas du tout. Il transporte toujours trente chandelles allumées, dont la moitié flotte dans l’air par pure nervosité magique.",
     tarif: "6 fragments de cire enchantée ou un secret chuchoté à l’envers.",
     adresse:
@@ -408,7 +408,7 @@ export const praticiens = [
     nom: "Dame Virella Croc-Safran",
     age: "64 ans",
     specialite: "Enchantements culinaires et potions qui mijotent seules",
-    description:
+    presentation:
       "Virella affirme pouvoir transformer n’importe quel plat en philtre amoureux… sauf la soupe au navet, ‘beaucoup trop rebelle’. Sa cuisine parle littéralement lorsqu’elle a le dos tourné.",
     tarif: "3 épices rares ou un ustensile qui sait siffler.",
     adresse:
@@ -425,7 +425,7 @@ export const praticiens = [
     nom: "Maël Ombre-Fauve",
     age: "82 ans",
     specialite: "Métamorphoses partielles (souvent involontaires)",
-    description:
+    presentation:
       "Maël maîtrise l’art de changer d’apparence… mais seulement à moitié. On le surprend souvent avec des oreilles de lynx ou une queue de renard selon l’humeur de sa magie.",
     tarif: "1 griffe ancienne ou un reflet offert dans un miroir.",
     adresse:
@@ -442,7 +442,7 @@ export const praticiens = [
     nom: "Sorcière Belmira Tisse-Feu",
     age: "69 ans",
     specialite: "Pyromancie poétique et feux dansants",
-    description:
+    presentation:
       "Belmira parle au feu comme à un vieil ami. Ses flammes chantent, rient, et parfois boudent. Elle peut allumer un brasier d’un simple clin d’œil… ou faire exploser un tas de feuilles par accident.",
     tarif: "2 braises éternelles ou une chanson ardente.",
     adresse:
@@ -459,7 +459,7 @@ export const praticiens = [
     nom: "Théorin Brouillard-de-Nuit",
     age: "77 ans",
     specialite: "Nécro-astrologie douce (aucun revenant agressif garanti)",
-    description:
+    presentation:
       "Théorin lit le destin dans les ombres et le brouillard nocturne. Selon lui, les esprits apprécient qu’on leur parle poliment et détestent qu’on confonde ‘spectre’ et ‘fantôme’.",
     tarif: "7 cierges nocturnes ou un souffle froid dans une fiole.",
     adresse:
