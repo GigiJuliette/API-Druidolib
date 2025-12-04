@@ -8,7 +8,7 @@ const app = express()
 app.use(cors('*'))
 
 app.get('/', (req, res) => {
-    console.log('tu est sur la route / ')
+    console.log('tu es sur la route / ')
     res.send('tu est sur la route / ')
 })
 
