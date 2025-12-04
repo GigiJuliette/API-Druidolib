@@ -35,8 +35,8 @@ export const praticiens = [
   presentation: "Connue pour préparer des potions qui sentent soit très bon, soit très… surprenant. Jure que les écureuils lui transmettent des secrets médicinaux indispensables.",
   tarif: "15 feuilles de chêne ou 35€ la séance (réduction si vous apportez un chant d’oiseau enregistré)",
   adresse: "Cabane suspendue dans le Grand Hêtre Doré. Accessible par une échelle en lianes (attention aux glissades).",
-  imagePraticien: "",
-  imageLieu: ""
+  imagePraticien: "https://i.pinimg.com/736x/09/b1/ea/09b1eaf390727538a20079a5cb562fa1.jpg",
+  imageLieu: "https://i.pinimg.com/736x/cf/b4/43/cfb443b2e439b33676a01819dc6f3ad2.jpg"
 },
 {
   id: 18,
@@ -48,8 +48,8 @@ export const praticiens = [
   presentation: "Galdor affirme que les pierres lui parlent. Le problème, c’est qu’il répond vraiment. Ses consultations sont courtes, mais ses siestes sont longues.",
   tarif: "Une pierre 'qui a une bonne vibration' ou 30€",
   adresse: "Grotte de la Pierre Murmurante. Suivre l'écho… ou attendre que Galdor sorte faire une sieste dehors.",
-  imagePraticien: "",
-  imageLieu: ""
+  imagePraticien: "https://i.pinimg.com/736x/1f/0d/42/1f0d42dc1b1349a72568edea4b16bddc.jpg",
+  imageLieu: "https://i.pinimg.com/736x/f9/a5/c6/f9a5c6b276438f06dcf93773aa0faae5.jpg"
 },
 {
   id: 19,
@@ -61,8 +61,8 @@ export const praticiens = [
   presentation: "Althéon fait des remèdes… comestibles. Certains ont même bon goût. Il affirme pouvoir purifier l’âme avec une bonne soupe fumée.",
   tarif: "Un pot en terre cuite ou 45€ (supplément si explosion involontaire de potion)",
   adresse: "Atelier de Fumées Sacrées, au bord du ruisseau crépitant.",
-  imagePraticien: "",
-  imageLieu: ""
+  imagePraticien: "https://i.pinimg.com/736x/42/9f/a6/429fa62d91d2d9d427189edc2d81425a.jpg",
+  imageLieu: "https://i.pinimg.com/736x/03/31/0c/03310cbd0272729aa8502aa9227130b6.jpg"
 },
 {
   id: 20,
@@ -74,8 +74,8 @@ export const praticiens = [
   presentation: "Ysilde travaille surtout la nuit, affirmant que la lune lui envoie des consignes. Très douce, mais parfois en pleine conversation avec… personne.",
   tarif: "2 fioles de rosée du matin ou 38€",
   adresse: "Jardin de Lune, clairière argentée accessible uniquement à la tombée du jour.",
-  imagePraticien: "",
-  imageLieu: ""
+  imagePraticien: "https://i.pinimg.com/736x/74/67/f9/7467f9ee04adad09289923063e1ddaad.jpg",
+  imageLieu: "https://i.pinimg.com/736x/2b/af/50/2baf5043ec0c20ac3f6ad8f80fb2a5a9.jpg"
 },
 {
   id: 21,
