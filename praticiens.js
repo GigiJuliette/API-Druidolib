@@ -206,42 +206,11 @@ export const praticiens = [
   adresse: "Cabane des Murmures, au cœur d’un cercle de pierres anciennes",
   imagePraticien: "https://i.pinimg.com/736x/0b/b6/6e/0bb66e033f5953c008352f1a23f1c0bc.jpg",
   imageLieu: "https://i.pinimg.com/736x/75/67/64/756764ce8b140b38e004eda4025e1776.jpg"
-}
-  {
-    id: 1,
-    categorie: "voyant",
-    nom: "Chênefort Belmir",
-    age: "302 ans",
-    specialite: "Phytomagie ancestrale et divination approximative",
-    presentation:
-      "Druide depuis plus de 150 lunes. Parle aux plantes, prétend qu'elles répondent, et commence souvent ses consultations par 'As-tu remercié ton arbre préféré aujourd'hui ?'",
-    tarif: "40€ la consultation (ou 3 glands + 1 branche de gui)",
-    adresse:
-      "Clairière du Vieux Chêne, troisième tronc à droite. 12 min à pied si les esprits sont de bonne humeur",
-    imagePraticien:
-      "https://i.pinimg.com/736x/f8/8f/5c/f88f5c46a3c0bee8877107934067aeaf.jpg",
-    imageLieu:
-      "https://i.pinimg.com/736x/47/98/92/479892d5c43a00bd77ea345ec4adaa13.jpg",
-  },
-  {
-    id: 2,
-    categorie: "druid",
-    nom: "Ysoria la Clairvoyante du Bois-Brume",
-    age: "43 ans",
-    specialite: "Voyance runique et interprétation des murmures astrals",
-    description:
-      "Maîtresse des visions étranges, Ysoria contemple les volutes d'encens jusqu’à ce que les esprits acceptent enfin de lui répondre. Elle parle souvent en devinettes, parfois même sans raison, mais ses prophéties – qu'elles soient terrifiantes ou absurdes – finissent toujours par se réaliser d’une manière ou d’une autre.",
-    tarif: "3 pièces d’argent, ou une plume de griffon impeccablement propre.",
-    adresse:
-      "Marchez vers le nord jusqu’à ce que les arbres semblent vous observer, tournez à gauche au rocher qui ressemble vaguement à un hérisson géant, puis avancez jusqu'à sentir une odeur de sauge brûlée. Sa hutte apparaît lorsque vous clignez des yeux trois fois.",
-    imagePraticien:
-      "https://i.pinimg.com/736x/a1/36/8e/a1368ec5af24b2240f9362e2bb18017b.jpg",
-    imageLieu:
-      "https://i.pinimg.com/736x/83/01/ef/8301eff5fdeac85c0fd1e0e1c6ca6ff8.jpg",
-  },
-  {
+}, 
+{
     id: 3,
     categorie: "voyant",
+    badge: "http://localhost:4242/assets/images/badgeVoyant.png",
     nom: "Maître Baldéric des Brouillards",
     age: "132 ans",
     specialite:
@@ -259,6 +228,7 @@ export const praticiens = [
   {
     id: 4,
     categorie: "voyant",
+    badge: "http://localhost:4242/assets/images/badgeVoyant.png",
     nom: "Dame Griwella Croc-de-Lune",
     age: "87 ans",
     specialite: "Remède aux malédictions mineures et aux ennuis majeurs",
@@ -276,6 +246,7 @@ export const praticiens = [
   {
     id: 5,
     categorie: "voyant",
+    badge: "http://localhost:4242/assets/images/badgeVoyant.png",
     nom: "Frère Odon l’Increvable",
     age: "211 ans",
     specialite:
@@ -293,6 +264,7 @@ export const praticiens = [
   {
     id: 6,
     categorie: "voyant",
+    badge: "http://localhost:4242/assets/images/badgeVoyant.png",
     nom: "Sorceline la Tisseuse d’Échos",
     age: "104 ans",
     specialite: "Interprétation des rêves, cauchemars et visions accidentelles",
@@ -309,6 +281,7 @@ export const praticiens = [
   {
     id: 7,
     categorie: "chaman",
+    badge: "http://localhost:4242/assets/images/badgeChaman.png",
     nom: "Chaman Ulmar Vent-Grave",
     age: "79 ans",
     specialite: "Invocation des esprits de la poussière et du tonnerre",
@@ -325,6 +298,7 @@ export const praticiens = [
   {
     id: 8,
     categorie: "chaman",
+    badge: "http://localhost:4242/assets/images/badgeChaman.png",
     nom: "Shamira Lune-Crise",
     age: "683 ans",
     specialite: "Transes lunaires, harmonisation des esprits capricieux",
@@ -342,6 +316,7 @@ export const praticiens = [
   {
     id: 9,
     categorie: "chaman",
+    badge: "http://localhost:4242/assets/images/badgeChaman.png",
     nom: "Gorrel le Murmureux",
     age: "88 ans",
     specialite:
@@ -359,6 +334,7 @@ export const praticiens = [
   {
     id: 10,
     categorie: "chaman",
+    badge: "http://localhost:4242/assets/images/badgeChaman.png",
     nom: "Narka Vent-des-Rêves",
     age: "72 ans",
     specialite: "Chamanisme onirique et chasse aux cauchemars farceurs",
@@ -375,6 +351,7 @@ export const praticiens = [
   {
     id: 11,
     categorie: "chaman",
+    badge: "http://localhost:4242/assets/images/badgeChaman.png",
     nom: "Thorgunne Basse-d’Aube",
     age: "21 ans",
     specialite: "Rituels d’équilibre entre bêtes, hommes et mélodies",
@@ -391,6 +368,7 @@ export const praticiens = [
   {
     id: 12,
     categorie: "chaman",
+    badge: "http://localhost:4242/assets/images/badgeChaman.png",
     nom: "Marela Tisse-Courants",
     age: "68 ans",
     specialite:
@@ -409,6 +387,7 @@ export const praticiens = [
   {
     id: 13,
     categorie: "sorcier",
+    badge: "http://localhost:4242/assets/images/badgeSorcière.png",
     nom: "Sorcier Meldran aux Mille Chandelles",
     age: "71 ans",
     specialite: "Sortilèges de lumière instable et illusions capricieuses",
@@ -425,6 +404,7 @@ export const praticiens = [
   {
     id: 14,
     categorie: "sorcier",
+    badge: "http://localhost:4242/assets/images/badgeSorcière.png",
     nom: "Dame Virella Croc-Safran",
     age: "64 ans",
     specialite: "Enchantements culinaires et potions qui mijotent seules",
@@ -441,6 +421,7 @@ export const praticiens = [
   {
     id: 15,
     categorie: "sorcier",
+    badge: "http://localhost:4242/assets/images/badgeSorcière.png",
     nom: "Maël Ombre-Fauve",
     age: "82 ans",
     specialite: "Métamorphoses partielles (souvent involontaires)",
@@ -457,6 +438,7 @@ export const praticiens = [
   {
     id: 16,
     categorie: "sorcier",
+    badge: "http://localhost:4242/assets/images/badgeSorcière.png",
     nom: "Sorcière Belmira Tisse-Feu",
     age: "69 ans",
     specialite: "Pyromancie poétique et feux dansants",
@@ -473,6 +455,7 @@ export const praticiens = [
   {
     id: 31,
     categorie: "sorcier",
+    badge: "http://localhost:4242/assets/images/badgeSorcière.png",
     nom: "Théorin Brouillard-de-Nuit",
     age: "77 ans",
     specialite: "Nécro-astrologie douce (aucun revenant agressif garanti)",
