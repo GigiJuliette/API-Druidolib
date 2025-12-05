@@ -5,7 +5,7 @@ export const praticiens = [
   badge: "http://localhost:4242/assets/images/badgeDruide.png",
   nom: "Chênefort Belmir",
   age: "302 ans",
-  specialite: "Grand expert en phytomagie ancestrale, infusion de cailloux énergétiques (qu’il jure efficaces), lecture de vol d’oiseaux pour prédire la météo, et alignement des moustaches de blaireau (rituel très précis, paraît-il)",
+  specialite: "Grand expert en phytomagie ancestrale, infusion de cailloux énergétiques et alignement des moustaches de blaireau.",
   presentation: "Druide depuis plus de 150 lunes. Parle aux plantes, prétend qu'elles répondent, et commence souvent ses consultations par 'As-tu remercié ton arbre préféré aujourd'hui ?'",
   tarif: "Consultation standard : 3 glands et 1 branche de gui (ou 40€ pour les citadins)",
   adresse: "Clairière du Vieux Chêne, troisième tronc à droite. 12 min à pied si les esprits sont de bonne humeur",
