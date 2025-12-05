@@ -7,6 +7,8 @@ const app = express()
 
 app.use(cors('*'))
 
+app.use('/assets', express.static('assets'));
+
 app.get('/', (req, res) => {
     console.log('tu es sur la route / ')
     res.send('tu est sur la route / ')
