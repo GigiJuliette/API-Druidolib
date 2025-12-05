@@ -5,7 +5,7 @@ export const praticiens = [
   badge: "http://localhost:4242/assets/images/badgeDruide.png",
   nom: "Chênefort Belmir",
   age: "302 ans",
-  specialite: "Grand expert en phytomagie ancestrale, infusion de cailloux énergétiques (qu’il jure efficaces), lecture de vol d’oiseaux pour prédire la météo, et alignement des moustaches de blaireau (rituel très précis, paraît-il)",
+  specialite: "Grand expert en phytomagie ancestrale, infusion de cailloux énergétiques et alignement des moustaches de blaireau.",
   presentation: "Druide depuis plus de 150 lunes. Parle aux plantes, prétend qu'elles répondent, et commence souvent ses consultations par 'As-tu remercié ton arbre préféré aujourd'hui ?'",
   tarif: "Consultation standard : 3 glands et 1 branche de gui (ou 40€ pour les citadins)",
   adresse: "Clairière du Vieux Chêne, troisième tronc à droite. 12 min à pied si les esprits sont de bonne humeur",
@@ -225,24 +225,24 @@ export const praticiens = [
     imageLieu:
       "https://i.pinimg.com/736x/aa/84/6a/aa846af6ad9c39cfecd271e242d21096.jpg",
   },
-  {
-    id: 4,
-    categorie: "voyant",
-    badge: "http://localhost:4242/assets/images/badgeVoyant.png",
-    nom: "Dame Griwella Croc-de-Lune",
-    age: "87 ans",
-    specialite: "Remède aux malédictions mineures et aux ennuis majeurs",
-    presentation:
-      "Griwella prétend avoir survécu à sept malédictions différentes, mais son œil qui clignote tout seul et son ombre indépendante laissent penser qu’il en reste encore une ou deux. Malgré tout, elle est étonnamment efficace.",
-    tarif:
-      "1 gemme quelconque ou une chanson bien chantée (elle juge très sévèrement).",
-    adresse:
-      "Traversez le vieux pont grinçant, tournez autour du menhir penché trois fois, puis suivez le hurlement du loup… ou ce que vous espérez être un loup.",
-    imagePtraticien:
-      "https://i.pinimg.com/736x/4b/fc/4c/4bfc4cbf633c56ae19a164f72c40c57c.jpg",
-    imageLieu:
-      "https://i.pinimg.com/736x/83/01/ef/8301eff5fdeac85c0fd1e0e1c6ca6ff8.jpg",
-  },
+  // {
+  //   id: 4,
+  //   categorie: "voyant",
+  //   badge: "http://localhost:4242/assets/images/badgeVoyant.png",
+  //   nom: "Dame Griwella Croc-de-Lune",
+  //   age: "87 ans",
+  //   specialite: "Remède aux malédictions mineures et aux ennuis majeurs",
+  //   presentation:
+  //     "Griwella prétend avoir survécu à sept malédictions différentes, mais son œil qui clignote tout seul et son ombre indépendante laissent penser qu’il en reste encore une ou deux. Malgré tout, elle est étonnamment efficace.",
+  //   tarif:
+  //     "1 gemme quelconque ou une chanson bien chantée (elle juge très sévèrement).",
+  //   adresse:
+  //     "Traversez le vieux pont grinçant, tournez autour du menhir penché trois fois, puis suivez le hurlement du loup… ou ce que vous espérez être un loup.",
+  //   imagePtraticien:
+  //     "https://i.pinimg.com/1200x/c9/d4/d5/c9d4d50b3bfd256ec51ac43fecd42121.jpg",
+  //   imageLieu:
+  //     "https://i.pinimg.com/736x/83/01/ef/8301eff5fdeac85c0fd1e0e1c6ca6ff8.jpg",
+  // },
   {
     id: 5,
     categorie: "voyant",
